@@ -4,7 +4,7 @@
 
 Welcome to our summer project for closing computational mathematics in 2016. Credits for Nakhi and Martin who both worked with me on the board and GUI.
 
-![alt text](https://github.com/ewuerger/Hex/raw/master/pictures/GUI.png?raw=True)
+![alt text](https://github.com/ewuerger/Hex/raw/master/pictures/Win.png?raw=True)
 
 Over 2 sprints, each 2 weeks long, we developped this Hex Game script. 
 In the first: The core of the game, i.e. all functionality such that 2 humans can play against each other.

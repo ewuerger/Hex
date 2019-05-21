@@ -18,6 +18,7 @@ class Game():
             self.board.starter = self.starter
         self.interface = HexGui(m, n, self)
         self.GameOn(m, n, mode)
+        self.interface.start()
 
 ##  choose between Players A and B who begins
 ##  adjust according to game mode the attributes starter and nonstarter

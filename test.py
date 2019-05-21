@@ -8,7 +8,7 @@ from nextki import HexKI
 from Game import Game
 
 
-Game(6,6,'inter')
+Game(5,5,'inter')
 
 '''
 i = 0
