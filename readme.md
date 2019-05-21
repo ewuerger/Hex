@@ -15,9 +15,9 @@ To use this script you can download the repository and simply run test.py to pla
 
 Avaiable modes include:
 
-*'human' for human vs human
-*'inter' for human vs ai
-*'ki' for ai vs ai
+* 'human' for human vs human
+* 'inter' for human vs ai
+* 'ki' for ai vs ai
 
 You are welcome to contribute to this project in any shape or form
 (improving the software, doing data analysis, improving the GUI (based on tkinter)).
