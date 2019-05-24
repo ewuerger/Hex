@@ -19,5 +19,9 @@ Avaiable modes include:
 * 'inter' for human vs ai
 * 'ki' for ai vs ai
 
+## Performance
+At the moment it has poor performance for original measured boards aka 11x11. For performance analysis of AI you can look at the Improve.ipynb notebook. Quick summary:
+Obviously the simulationphase of the MCTS is very expensive and takes nearly 80% of the time, because we do it so often. But it's mainly behaving so poor because of the naive implementation of the board. Therefore the functions defined in this class are taking too much time since we are using BFS for finding a victory path. I played a bit with numba/cuda and it's a next goal to make this much faster.
+
 You are welcome to contribute to this project in any shape or form
 (improving the software, doing data analysis, improving the GUI (based on tkinter)).
